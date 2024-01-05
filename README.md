@@ -1,3 +1,7 @@
+# References  
+This source code is originated from ```https://github.com/airobotlab/KoChatGPT```  
+I tested the code in this version based on the above originated code.
+
 # Environment
 ```
 ubuntu:20.04
