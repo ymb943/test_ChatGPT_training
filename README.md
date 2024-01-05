@@ -15,11 +15,7 @@ pip install jupyterlab
 ```
 
 # Run files
-1. Vanilla GPT
-```python 000_GPT_text_completion_model.py```  
-2. Supervised Fine Tuning  
-```python 001_SFT.py```  
-3. Reward model  
-```python 002_RM.py```  
-4. PPO training  
-```python 003_PPO.py```
+1. Vanilla GPT ```python 000_GPT_text_completion_model.py```  
+2. Supervised Fine Tuning ```python 001_SFT.py```  
+3. Reward model ```python 002_RM.py```  
+4. PPO training ```python 003_PPO.py```
