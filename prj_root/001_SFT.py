@@ -506,9 +506,9 @@ trainer = Trainer(
     train_dataset=train_dataset,
     eval_dataset=eval_dataset)
 
-# trainer.train()
-# trainer.save_state()
-# safe_save_model_for_hf_trainer(trainer=trainer, output_dir=args.output_dir)
+trainer.train()
+trainer.save_state()
+safe_save_model_for_hf_trainer(trainer=trainer, output_dir=args.output_dir)
 
 # ================================================================================
 # Inference test by SFT performed model
